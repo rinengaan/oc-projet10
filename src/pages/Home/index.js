@@ -76,7 +76,7 @@ const Page = () => {
                         Une équipe d’experts dédiés à l’ogranisation de vos
                         événements
                     </p>
-                    <div className='ListContainer'>
+                    <div className='ListContainer' data-testid='listOfPeople'>
                         <PeopleCard
                             imageSrc='/images/stephanie-liverani-Zz5LQe-VSMY-unsplash.png'
                             name='Samira'
@@ -131,7 +131,7 @@ const Page = () => {
                     </Modal>
                 </div>
             </main>
-            <footer className='row'>
+            <footer className='row' data-testid='footer'>
                 <div className='col presta'>
                     <h3>Notre dernière prestation</h3>
                     {/* On ajoute "last" pour supprimer les erreurs "undefined" de la console 
@@ -144,6 +144,7 @@ const Page = () => {
                             date={new Date(last?.date)}
                             small
                             label='Dernier Événement'
+                            data-testid='lastEvent'
                         />
                     )}
                 </div>
