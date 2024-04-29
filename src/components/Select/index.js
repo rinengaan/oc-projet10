@@ -60,7 +60,7 @@ const Select = ({
             setCollapsed(!collapsed);
           }}
         >
-          <Arrow />
+          <Arrow aria-label="arrow-icon"/>
         </button>
       </div>
     </div>
