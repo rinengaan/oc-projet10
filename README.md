@@ -1,6 +1,5 @@
 # 724 Events
-![724 logo](./src/logo.svg)
-
+![724 logo](./src/logo.png)
 ## Description
 L'application est le site d'une agence evenementielle.
 ## Pre-requis
