@@ -1,4 +1,5 @@
 # 724 Events
+![724 logo](./src/logo.svg)
 
 ## Description
 L'application est le site d'une agence evenementielle.
